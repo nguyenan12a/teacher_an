@@ -1,0 +1,130 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: coral;
+  font-style: italic;
+  font-size: 25px;
+}
+a:hover{
+  color: white;
+}
+body{
+  background-image: url(https://images.pexels.com/photos/4917165/pexels-photo-4917165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: 100%;
+  color:black;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#list ul li{
+  float: left;
+  display: inline;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+#logo .nameuser{
+  float: right;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 5px;
+  font-style: italic;
+  color: coral;
+  
+}
+#list ul li:hover{
+  color:coral
+}
+#content .text_top{
+  color:black ;
+  display: block;
+  padding-top: 70px;
+  font-size: 30px;
+
+}
+#list ul li .one {
+  background-color:coral ;
+  color: white;
+  width: 40 px;
+  height: 30px; 
+  border-radius: 8px;
+}
+#list ul li .one:hover{
+  color: black;
+  background-color: white;
+}
+#list ul li .two:hover{
+  color:white;
+  background-color: coral;
+}
+#list ul li .two{
+  border-radius: 8px;
+  width: 40px;
+  height: 30px;
+}.text_middle{
+  box-sizing: border-box;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 7px;
+  }
+  .text_middle span h2 {
+    margin-left: 5px;
+  }
+  .text_middle p{
+    margin-left: 5px;
+  }
+  .text_middle ol {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .text_middle ol li{
+    padding: 4px;
+  }
+  .text_middle h3 {
+    display: block;
+    float: right;
+    margin-right: 40px;
+
+  }
+.text_middle .img_one{
+  width: 100px;
+  float: right;
+  display: block;
+}
+#footer{
+  margin-top: 60px;
+  text-align: center;
+  text-align: center;
+
+}
+#footer button{
+  width: 150px;
+  height: 50px;
+}
+#footer .j1{
+  display: block;
+  margin-bottom: 25px;
+}
+#footer  .j1 button{
+  background-color: coral;
+  border-radius: 30px;
+  color:black;
+}
+#footer  .j1 button:hover{
+  background-color: white;
+  color: coral;
+}
+#footer .j2{
+  display: block;
+}
+#footer .j2 button{
+  background-color:whitesmoke;
+  border-radius: 30px;
+}
+#footer  .j2 button:hover{
+  background-color: black;
+  color: white;
+}
